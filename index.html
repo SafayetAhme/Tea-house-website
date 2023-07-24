@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea-house</title>
+    <!------Font awesome icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!----Google monro font---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!------tailwind and daisy ui---->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----- tailwind custome color --->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <div>
+                <h1 class="text-7xl font-extrabold">It's good tea<br>time at the Tea<br>Hourse</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
+                <button class="btn btn-primary">explore More</button>
+              </div>
+              <img src="img/images/banner.png" class="max-w-sm" />
+              <!----tatting----->
+              <div class="-mt-24 -mr-16 flex items-center gap-4 drop-shadow-lg bg-white p-4 w-60">
+                <i class="fa-solid fa-star text-3xl text-orange-400 "></i>
+                <div>
+                    <h3 class="text-3xl">5.00</h3>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main class="container mx-auto">
+        <!----Featured section---->
+        <section class="text-center my-24">
+            <h2 class="text-5xl font-extrabold mb-5">
+             Our Featured products
+            </h2>
+            <p class="lg:max-w-3xl mx-auto mb-14">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, saepe numquam. Odio maiores ab reprehenderit molestias temporibus voluptates, ratione quod.</p>
+            <!-----featured tea card container----->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-----first card----->
+                <div class="card  p-8 bg-gradient-to-r from[#f4f4f4] to-[#f4f4f4] shadow-xl">
+                    <figure><img src="./img/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card  p-8 bg-gradient-to-r from[#f4f4f4] to-[#f4f4f4] shadow-xl">
+                    <figure><img src="./img/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card  p-8 bg-gradient-to-r from[#f4f4f4] to-[#f4f4f4] shadow-xl">
+                    <figure><img src="./img/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card  p-8 bg-gradient-to-r from[#f4f4f4] to-[#f4f4f4] shadow-xl">
+                    <figure><img src="./img/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-----Great tea fresh tea section----->
+        <section class="my-24 gap-12 flex flex-col lg:flex-row">
+            <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
+                <div class="rounded-xl h-36 bg-gradient-to-r from-indigo-500"></div>
+                <div class="row-span-2 bg-orange-100 rounded-xl px-8 py-12 flex justify-center">
+                    <img src="img/images/fresh-1.png" alt="">
+                </div>
+                <div class="row-span-2  bg-orange-100 rounded-xl px-8 py-12 flex justify-center">
+                    <img src="img/images/fresh-2.png" alt="">
+                </div>
+                <div class="rounded-xl h-36 bg-gradient-to-r bg-red-200"></div>
+            </div>
+            <div class="space-y-5 flex-1">
+                <h3 class="text-5xl font-extrabold">Grat Tea,<br> Freshly<br> presented</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, debitis rem quae laborum quisquam aliquid numquam labore sunt esse nemo voluptate et nam nobis, quod accusantium corrupti autem dicta! Eos saepe consequuntur voluptate officia praesentium!</p>
+                <h4 class="text-xl font-extrabold">Unique Taste</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, temporibus?</p>
+                <h4 class="text-xl font-extrabold mt-8">Unique Taste</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, temporibus?</p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+
+</body>
+</html>
